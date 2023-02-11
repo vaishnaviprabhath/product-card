@@ -10,8 +10,8 @@ export default function Home() {
       <Head>
         <title>Sample App</title>
       </Head>
-      <div className="flex flex-row justify-center py-40 ">
-        <div className="w-64 h-64">
+      <div className="flex flex-row justify-center pt-20">
+        <div className="rounded-lg overflow-hidden w-1/4  h-1/2">
           <Image src={desktop} alt={"desktop"}></Image>
         </div>
       </div>
