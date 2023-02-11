@@ -10,9 +10,14 @@ export default function Home() {
       <Head>
         <title>Sample App</title>
       </Head>
-      <div className="flex flex-row justify-center pt-20">
-        <div className="rounded-lg overflow-hidden w-1/4  h-1/2">
-          <Image src={desktop} alt={"desktop"}></Image>
+      <div className="flex items-center justify-center h-screen">
+        <div className="flex-none">
+          <div className="rounded-lg overflow-hidden w-96">
+            <Image src={desktop} alt={"desktop"}></Image>
+          </div>
+        </div>
+        <div className="flex-none">
+          <p>This is a text</p>
         </div>
       </div>
       {/* */}
