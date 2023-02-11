@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
-import iconCart from "../public/images/image-product-desktop.jpg";
+import desktop from "../public/images/image-product-desktop.jpg";
+import favicon from "../public/images/favicon-32x32.png";
 
 export default function Home() {
   return (
@@ -9,8 +10,12 @@ export default function Home() {
       <Head>
         <title>Sample App</title>
       </Head>
-      <p className="text-lg font-montserrat">Sample text in lg</p>
-      <Image src={iconCart} alt={""}></Image>
+      <div className="flex flex-row justify-center">
+        <div>
+          <Image src={desktop} alt={"desktop"}></Image>
+        </div>
+      </div>
+      {/* */}
     </>
   );
 }
