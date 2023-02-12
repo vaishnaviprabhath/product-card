@@ -12,12 +12,23 @@ export default function Home() {
       </Head>
       <div className="flex items-center justify-center h-screen">
         <div className="flex-none">
-          <div className="rounded-lg overflow-hidden w-96">
+          <div className="rounded-l-md overflow-hidden w-64">
             <Image src={desktop} alt={"desktop"}></Image>
           </div>
         </div>
-        <div className="flex-none">
-          <p>This is a text</p>
+        <div className="flex flex-col text-left w-64 h-96 bg-green-200 rounded-r-md ">
+          <div className=" w-44 pl-4 pt-2 ">
+            <p className="font-Montserrat text-md font-medium text-dgb">
+              perfume
+            </p>
+
+            <h1> Gabrielle Essence Eau De Parfum</h1>
+
+            <p>
+              A floral, solar and voluptuous interpretation composed by Olivier
+              Polge, Perfumer-Creator for the House of CHANEL.
+            </p>
+          </div>
         </div>
       </div>
       {/* */}

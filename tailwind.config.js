@@ -8,7 +8,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-          'montserrat': ['Montserrat']
+          'montserrat': ['Montserrat'],
+          'fraunces' : ['Fraunces']
+      },
+      colors: {
+        'dgb': '#243c5a',
       }
   }
   },
