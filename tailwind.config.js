@@ -12,7 +12,14 @@ module.exports = {
           'fraunces' : ['Fraunces']
       },
       colors: {
-        'dgb': '#243c5a',
+        'dgb': '#6C7289',
+        'darkcyan': '#52AD8C',
+        'cream': '#F2EBE3',
+        'vdb':'#	1C232B',
+        
+
+
+
       }
   }
   },
