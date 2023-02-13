@@ -1,20 +1,22 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Inter } from "@next/font/google";
-import desktop from "../public/images/image-product-desktop.jpg";
-import favicon from "../public/images/favicon-32x32.png";
-import icon from "../public/images/icon-cart.svg";
 
 export default function Home() {
   return (
     <>
       <Head>
         <title>Sample App</title>
+        <link rel="shortcut icon" href="images/favicon-32x32.png" />
       </Head>
       <div className="flex items-center justify-center h-screen bg-cream">
         <div className="flex-none">
           <div className="rounded-l-md overflow-hidden w-64">
-            <Image src={desktop} alt={"desktop"}></Image>
+            <Image
+              src="/images/image-product-desktop.jpg"
+              width={256}
+              height={384}
+              alt={"desktop"}
+            ></Image>
           </div>
         </div>
         <div className="flex flex-col text-left w-64 h-96 bg-white rounded-r-md ">
@@ -45,7 +47,12 @@ export default function Home() {
           </div>
           <div className="pl-6 h-14 pb-2 w-56">
             <button className="flex items-center justify-center gap-3 bg-darkcyan text-white w-full h-full py-4 rounded font-montserrat font-bold">
-              <Image src={icon} alt={"icon-cart"}></Image>
+              <Image
+                src="/images/icon-cart.svg"
+                width={15}
+                height={15}
+                alt={"icon-cart"}
+              ></Image>
               <p>Add to cart</p>
             </button>
           </div>
