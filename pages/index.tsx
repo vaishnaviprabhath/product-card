@@ -31,7 +31,7 @@ export default function Home() {
               A floral, solar and voluptuous interpretation composed by Olivier
               Polge, Perfumer-Creator for the House of CHANEL.
             </p>
-            <div className="pt-4 pb-4">
+            <div className="pt-4 pb-6">
               <h2>
                 <span className="font-fraunces font-bold text-3xl text-darkcyan ">
                   $149.99 &nbsp;{" "}
@@ -43,7 +43,7 @@ export default function Home() {
               </h2>
             </div>
           </div>
-          <div className="pl-6   h-10 w-56">
+          <div className="pl-6 h-14 pb-2 w-56">
             <button className="flex items-center justify-center gap-3 bg-darkcyan text-white w-full h-full py-4 rounded font-montserrat font-bold">
               <Image src={icon} alt={"icon-cart"}></Image>
               <p>Add to cart</p>
