@@ -13,7 +13,7 @@ module.exports = {
       },
       colors: {
         'dgb': '#6C7289',
-        'darkcyan': '#52AD8C',
+        'darkcyan': '#3C8067',
         'cream': '#F2EBE3',
         'vdb':'#	1C232B',
         
