@@ -9,8 +9,8 @@ export default function Home() {
         <link rel="shortcut icon" href="images/favicon-32x32.png" />
       </Head>
       <div className="flex items-center justify-center h-screen bg-cream">
-        <div className="flex-none">
-          <div className="rounded-l-md overflow-hidden w-64">
+        <div className="flex-none ">
+          <div className="rounded-l-md overflow-hidden hidden md:inline-block">
             <Image
               src="/images/image-product-desktop.jpg"
               width={256}
@@ -18,8 +18,16 @@ export default function Home() {
               alt={"desktop"}
             ></Image>
           </div>
+          <div className="rounded-l-md overflow-hidden md:hidden">
+            <Image
+              src="/images/image-product-mobile.jpg"
+              width={200}
+              height={300}
+              alt={"mobile"}
+            ></Image>
+          </div>
         </div>
-        <div className="flex flex-col text-left w-64 h-96 bg-white rounded-r-md ">
+        <div className="flex flex-col text-left w-64 h-96 bg-white ">
           <div className=" w-52 pl-5 pt-4 ">
             <p className="font-montserrat text-xs font-base text-dgb uppercase tracking-widest ">
               p e r f u m e
@@ -55,6 +63,8 @@ export default function Home() {
               ></Image>
               <p>Add to cart</p>
             </button>
+            <div className="md:hidden">Test mobile</div>
+            <div className="hidden md:inline-block">Test desktop</div>
           </div>
         </div>
       </div>
