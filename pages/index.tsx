@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Inter } from "@next/font/google";
 import desktop from "../public/images/image-product-desktop.jpg";
 import favicon from "../public/images/favicon-32x32.png";
+import icon from "../public/images/icon-cart.svg";
 
 export default function Home() {
   return (
@@ -42,10 +43,10 @@ export default function Home() {
               </h2>
             </div>
           </div>
-
-          <div className="flex sfont-bold font-montserrat text-white overflow-hidden pl-6">
-            <button className="bg-darkcyan h-10 w-52 rounded-md text-center  ">
-              Add to cart
+          <div className="pl-6 h-10 w-56">
+            <button className="flex items-center justify-center gap-3 bg-darkcyan text-white w-full py-4 rounded font-bold">
+              <Image src={icon} alt={"icon-cart"}></Image>
+              <p>Add to cart</p>
             </button>
           </div>
         </div>
