@@ -65,6 +65,10 @@ export default function Home() {
             </button>
             <div className="md:hidden">Test mobile</div>
             <div className="hidden md:inline-block">Test desktop</div>
+
+            <div className="bg-darkcyan md:bg-dgb">
+              mobile cyan desktop grey
+            </div>
           </div>
         </div>
       </div>
