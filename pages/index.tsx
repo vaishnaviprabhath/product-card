@@ -38,7 +38,7 @@ export default function Home() {
                 <span className="font-fraunces font-bold text-2xl text-darkcyan ">
                   $149.99 &nbsp;{" "}
                 </span>
-                <span className="line-through font-fraunces font-light text-sm text-dgb">
+                <span className="line-through font-montserrat font-normal  text-sm text-dgb">
                   {" "}
                   $169.99
                 </span>

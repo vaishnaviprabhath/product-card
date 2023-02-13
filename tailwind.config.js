@@ -16,10 +16,6 @@ module.exports = {
         'darkcyan': '#3C8067',
         'cream': '#F2EBE3',
         'vdb':'#	1C232B',
-        
-
-
-
       }
   }
   },
