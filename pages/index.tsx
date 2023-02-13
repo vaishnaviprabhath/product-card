@@ -18,20 +18,20 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-col text-left w-64 h-96 bg-white rounded-r-md ">
-          <div className=" w-52 pl-6 pt-2 ">
+          <div className=" w-52 pl-6 pt-4 ">
             <p className="font-montserrat text-md font-medium text-dgb uppercase ">
               p e r f u m e
             </p>
 
-            <h1 className="font-fraunces font-bold text-3xl pt-4 leading-none text-vdb">
+            <h1 className="font-fraunces font-bold text-3xl pt-4 leading-none tracking-tight text-vdb">
               Gabrielle Essence Eau De Parfum
             </h1>
 
-            <p className="font-montserrat text-md font-medium text-dgb pt-2 tracking-tight w-52">
+            <p className="font-montserrat text-md font-medium text-dgb pt-5 tracking-tight w-52">
               A floral, solar and voluptuous interpretation composed by Olivier
               Polge, Perfumer-Creator for the House of CHANEL.
             </p>
-            <div className="py-4 ">
+            <div className="pt-4 pb-4 ">
               <h2>
                 <span className="font-montserrat font-bold text-3xl text-darkcyan ">
                   $149.99 &nbsp;{" "}
@@ -44,7 +44,7 @@ export default function Home() {
             </div>
           </div>
           <div className="pl-6 h-10 w-56">
-            <button className="flex items-center justify-center gap-3 bg-darkcyan text-white w-full py-4 rounded font-bold">
+            <button className="flex items-center justify-center gap-3 bg-darkcyan text-white w-full h-full py-4 rounded font-montserrat font-bold">
               <Image src={icon} alt={"icon-cart"}></Image>
               <p>Add to cart</p>
             </button>
