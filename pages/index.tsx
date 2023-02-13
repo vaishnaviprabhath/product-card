@@ -46,7 +46,7 @@ export default function Home() {
             </div>
           </div>
           <div className="pl-6 h-14 pb-2 w-56">
-            <button className="flex items-center justify-center gap-3 bg-darkcyan text-white w-full h-full py-4 rounded font-montserrat font-bold">
+            <button className="flex items-center justify-center gap-3 bg-darkcyan text-white w-full h-full py-4 rounded-md font-montserrat font-semibold text-sm">
               <Image
                 src="/images/icon-cart.svg"
                 width={15}
