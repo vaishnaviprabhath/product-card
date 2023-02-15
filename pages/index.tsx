@@ -8,8 +8,8 @@ export default function Home() {
         <title>Sample App</title>
         <link rel="shortcut icon" href="images/favicon-32x32.png" />
       </Head>
-      <div className="flex items-center justify-center h-screen bg-cream">
-        <div className="flex-none ">
+      <div className="md:flex md:items-center md:justify-center h-screen bg-cream">
+        <div className="md:flex-none ">
           <div className="rounded-l-md overflow-hidden hidden md:inline-block">
             <Image
               src="/images/image-product-desktop.jpg"
@@ -18,6 +18,9 @@ export default function Home() {
               alt={"desktop"}
             ></Image>
           </div>
+        </div>
+        <div className="flex items-center justify-center h-screen bg-cream">
+          <div className="flex-none "></div>
           <div className="rounded-l-md overflow-hidden md:hidden">
             <Image
               src="/images/image-product-mobile.jpg"
@@ -27,8 +30,9 @@ export default function Home() {
             ></Image>
           </div>
         </div>
-        <div className="flex flex-col text-left w-64 h-96 bg-white ">
-          <div className=" w-52 pl-5 pt-4 ">
+
+        <div className="md:flex md:flex-col text-left md:w-64 md:h-96 w-40 h-96 flex flex-col bg-white ">
+          <div className=" md:w-52 md:pl-5 md:pt-4 w-52 pl-5 pt-4 ">
             <p className="font-montserrat text-xs font-base text-dgb uppercase tracking-widest ">
               p e r f u m e
             </p>
@@ -53,6 +57,7 @@ export default function Home() {
               </h2>
             </div>
           </div>
+
           <div className="pl-6 h-14 pb-2 w-56">
             <button className="flex items-center justify-center gap-3 bg-darkcyan text-white w-full h-full py-4 rounded-md font-montserrat font-semibold text-sm">
               <Image
@@ -63,11 +68,10 @@ export default function Home() {
               ></Image>
               <p>Add to cart</p>
             </button>
-            <div className="md:hidden">Test mobile</div>
-            <div className="hidden md:inline-block">Test desktop</div>
-
+            <div className="md:hidden">On mobile</div>
+            <div className="hidden md:inline-block">On desktop</div>
             <div className="bg-darkcyan md:bg-dgb">
-              mobile cyan desktop grey
+              mobile darkcyan and desktop dgb
             </div>
           </div>
         </div>
