@@ -68,11 +68,6 @@ export default function Home() {
               ></Image>
               <p>Add to cart</p>
             </button>
-            <div className="md:hidden">On mobile</div>
-            <div className="hidden md:inline-block">On desktop</div>
-            <div className="bg-darkcyan md:bg-dgb">
-              mobile darkcyan and desktop dgb
-            </div>
           </div>
         </div>
       </div>
